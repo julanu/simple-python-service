@@ -6,7 +6,7 @@ on:
 
 jobs:
     build-docker-image:
-      runs-on: [self-hosted, Linux, X64, test, local]
+      runs-on: self-hosted
 
       steps:
         - name: Checkout Repository
