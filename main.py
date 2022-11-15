@@ -6,10 +6,10 @@ app.config["DEBUG"] = False
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<
-        h1>A Simple Python Service</>
+    return '''
+        <h1>A Simple Python Service</h1>
         <p>A prototype API.</p>
-           '''
+        '''
 
 
 @app.errorhandler(404)
